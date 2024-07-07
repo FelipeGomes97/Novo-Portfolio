@@ -1,0 +1,443 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@400..700&family=Eczar:wght@400..800&family=Kalam:wght@300;400;700&family=Madimi+One&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sacramento&family=Satisfy&family=Shadows+Into+Light&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* PARTICLES JS */
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+a, li {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.container-header {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 18px 0 0 20px;
+}
+
+.destaque {
+    color: grey;
+}
+
+.home {
+    width: 100%;
+    height: calc(100% - 90px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-home {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-home {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-home h1 {
+    display: flex;
+    position: absolute;
+    font-size: 1.8em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin: -2px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-home h2 {
+    color: #fff;
+    display: flex;
+    position: absolute;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: -2px;
+    left: 60%;
+    top: 60%;
+    transform: translate(-80%, -200%);
+}
+
+.links {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;
+}
+
+.links a:hover {
+    background-color: rgba(0, 0, 255, 0.438);
+}
+
+.links a {
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 15px;
+    font-size: 16px;
+    margin: 20px 20px;
+    background-color: rgba(0, 0, 255, 0.499);
+    border-radius: 200px;
+    gap: 5px;
+}
+
+.redes-sociais {
+    position: absolute;
+    bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.redes-sociais a {
+    transition: all 0.2s ease-in;
+    font-size: 1.5rem;
+    color: #fff;
+    transform: translateY(0);
+}
+
+.redes-sociais a:hover {
+    transform: translateY(-5px);
+    color: grey;
+}
+
+.text-home h1 {
+    color: #fff;
+}
+
+.home-about {
+    display: flex;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 30px;
+    left: 10%;
+}
+
+.sobre h2 {
+    font-weight: 200;
+    font-size: 1.3em;
+    margin-left: 25px;
+    padding: 20px 10px;
+    text-transform: uppercase;
+}
+
+.foto-sobre {
+    display: flex;
+    width: 290px;
+    margin: 8px 0 0 7px;
+    border-radius: 10px;
+}
+
+.destaque-historia {
+    padding: 0 85px;
+    color: grey;
+}
+
+.destaque-nome {
+    color: grey;
+    font-weight: 300;
+}
+
+.fa-house {
+    padding-right: 10px;
+    color: #fff;
+}
+
+.sobre-mim {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    width: 90%;
+    text-align: justify;
+}
+
+.btn {
+    background-color: #00007F;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 25px 15px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 255, 0.438);
+}
+
+.soft-skills h2 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: none;
+    margin-left: 110px;
+    padding: 0;
+    color: #fff;
+    font-weight: 300;
+}
+
+.soft-skills {
+    margin-bottom: 25px;
+}
+
+.soft-skills span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: #fff;
+}
+
+.soft-skills ul li {
+    display: inline-flex;
+    padding: 7px 10px;
+}
+
+.fa-html5 {
+    color: #F0672B;
+}
+
+.fa-css3-alt {
+    color: #2D53E5;
+}
+
+.fa-js {
+    color: #F7E025;
+}
+
+.fa-java {
+    color: #4687b3;
+}
+
+.fa-star {
+    color: rgba(0, 0, 255, 0.499);
+}
+
+.fa-whatsapp {
+    padding-right: 7px;
+}
+
+.fa-download {
+    padding-right: 7px;
+}
+
+.back {
+    margin: 15px;
+    cursor: pointer;
+}
+
+.space1 {
+    margin-left: 25px;
+}
+
+.space2 {
+    margin-left: 9px;
+}
+
+.tecnologias h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin-left: 80px;
+    text-transform: none;
+}
+
+.tecnologias ul li {
+    display: inline-flex;
+    padding: 5px 0 50px 45px;
+}
+
+.tecnologias ul li:hover {
+    transform: translateY(-5px);
+}
+
+.tecnologias i:hover {
+    color: grey;
+
+}
+
+.footer-project, .footer-about, .footer-contact p {
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    margin: 0 30px 20px;
+} 
+
+.titulo h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-weight: 200;
+    font-size: 1.3em;
+    margin: 15px 0 15px 20px;
+    text-transform: uppercase;
+}
+
+.home-projects {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.projeto-psico {
+    background-color: rgba(128, 128, 128, 0.288);
+    height: 490px;
+    width: 80vw;
+    border: 1px solid rgba(128, 128, 128, 0.205);
+    border-radius: 10px;
+    margin-left: 38px;
+}
+
+.projeto-psico h2 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
+.projeto-psico p {
+    color: #fff;
+    text-align: justify;
+    padding: 5px 25px;
+}
+
+.foto-psico {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.btn-psico {
+    background-color: #00007F;
+    color: #fff;
+    text-transform: uppercase;
+    width: 70vw;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-psico:hover {
+    background-color: rgba(0, 0, 255, 0.438);
+}
+
+.projeto-psico ul li {
+    display: inline-flex;
+    padding: 15px 20px;
+}
+
+.projeto-psico ul li:hover {
+    transform: translateY(-5px);
+}
+
+.home-contact {
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    width: 90vw;
+    height: 106vh;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.foto-felipe {
+    display: flex;
+    width: 230px;
+    height: 200px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.home-contact h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.home-contact h3 {
+    color: blue;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 20px 0 4px 10px;
+}
+
+.home-contact p {
+    color: #fff;
+    text-align: justify;
+    margin: 25px 15px;
+}
+
+.home-contact i {
+    color: blue;
+    margin-left: 10px;
+}
+
+.home-contact span {
+    color: grey;
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+.redes-sociais-contact i {
+    font-size: 1.3rem;
+    padding: 5px 20px 5px 3px;
+    color: #fff;
+}
+
+.redes-sociais-contact i:hover {
+    transform: translateY(-5px);
+    color: grey;
+}
+
+.foto-sobre, .sobre-mim, .botoes, .soft-skills, .foto-felipe, .contato {
+    visibility: hidden;
+}

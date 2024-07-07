@@ -1,0 +1,374 @@
+@media (width <= 360px) {
+    .foto-sobre {
+        margin: 0;
+    }
+
+    .sobre-mim h2 {
+        font-size: 1.2em;
+        margin-left: 15px;
+    }
+
+    .botoes {
+        margin-left: -15px;
+    }
+
+    .soft-skills {
+        margin-left: -10px;
+    }
+
+    .home-contact {
+        height: 128vh;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .text-home h2 {
+        margin-top: -35px;
+        margin-left: -35px;
+    }
+
+    .links {
+        margin-right: 100px;
+    }
+
+    .links a {
+        margin: 20px 50px;
+    }
+
+    .redes-sociais i {
+        font-size: 1.6rem;
+        margin: 15px;
+    }
+
+    .sobre h2 {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .sobre span {
+        margin: 0;
+        padding: 0;
+    }
+
+    .foto-sobre {
+        margin: auto;
+        width: 350px;
+    }
+
+    .sobre-mim h2 {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 15px;
+        margin-left: 70px;
+    }
+
+    .sobre-mim p {
+        width: 80%;
+        font-size: 15px;
+        margin: auto;
+        margin-left: 90px;
+    }
+
+    .botoes {
+        margin: 15px 220px;
+    }
+
+    .soft-skills {
+        margin: 10px 0 10px 110px;
+    }
+
+    .soft-skills h2 {
+        margin: auto;
+        margin-left: -120px;
+        margin-bottom: 15px;
+    }
+
+    .soft-skills ul li {
+        display: inline-flex;
+        margin: 2px 60px;
+    }
+
+    .soft-skills .space1 {
+        padding-left: 35px;
+    }
+
+    .soft-skills .space2 {
+        padding-left: 19px;
+    }
+
+    .soft-skills span {
+        padding-left: 8px;
+    }
+
+    .tecnologias h2 {
+        margin: auto;
+        margin-left: -20px;
+    }
+
+    .tecnologias ul {
+        margin-left: 180px;
+    }
+
+    .tecnologias ul li {
+        text-align: center;
+        margin: 15px 0 10px 40px;
+        padding: 0 15px 55px;
+    }
+
+    .projeto-psico {
+        margin: auto;
+        padding: 20px 30px;
+        width: 60vw;
+    }
+
+    .projeto-psico p {
+        width: 70%;
+        margin: auto;
+        padding: 15px;
+    }
+
+    .btn-psico {
+        width: 80%;
+    }
+
+    .home-contact {
+        width: 80%;
+        height: 75vh;
+        font-size: 20px;
+    }
+
+    .home-contact p {
+        padding: 10px 30px;
+    }
+
+    .footer-contact {
+        margin-top: 120px;
+    }
+
+    .redes-sociais-contact {
+        margin: 15px 0;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1536px) {
+
+    .links {
+        margin: auto;
+        padding-right: 500px;
+        gap: 2rem;
+    }
+
+    .container-home .text-home h2 {
+        margin-left: -120px;
+    }
+
+    .sobre {
+        text-align: center;
+        width: 70vw;
+        margin-left: 220px;
+    }
+
+    .destaque-historia {
+        margin: 0;
+        padding: 0;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .foto-sobre {
+        padding: 15px;
+        width: 350px;
+    }
+
+    .sobre-mim h2 {
+        margin: 8px 150px;
+    }
+
+    .sobre-mim p {
+        width: 70%;
+        padding: 0 50px;
+    }
+
+    .soft-skills h2 {
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .soft-skills ul li {
+        width: 150px;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .tecnologias h2 {
+        margin: auto;
+        padding-bottom: 30px;
+    }
+
+    .tecnologias ul li {
+        margin: auto;
+        padding: 0 20px 50px;
+    }
+
+    .footer-about {
+        width: 70%;
+        padding: 0;
+        margin: 0 250px 20px ;
+    }
+
+    .projeto-psico {
+        margin: auto;
+        padding-top: 20px;
+        width: 35vw;
+        height: 65vh;
+    }
+
+    .projeto-psico p {
+        width: 80%;
+        margin: auto;
+    }
+
+    .projeto-psico button {
+        width: 25vw;
+    }
+
+    .projeto-psico ul li {
+        padding: 25px 15px;
+    }
+
+    .footer-project {
+        margin: 0;
+        padding: 15px;
+    }
+
+    .home-contact {
+        width: 50vw;
+        height: 92vh;
+    }
+
+    .contato p {
+        width: 90%;
+        margin: auto;
+    }
+
+    .contato h3 {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (width > 1536px) {
+    
+    .links {
+        margin: auto;
+        padding-right: 600px;
+        gap: 3rem;
+    }
+
+    .text-home h2 {
+        margin-left: -150px;
+        margin-top: -20px;
+    }
+
+    .sobre {
+        text-align: center;
+        width: 70vw;
+        margin-left: 250px;
+    }
+
+    .destaque-historia {
+        margin: 0;
+        padding: 0;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .foto-sobre {
+        padding: 15px;
+        width: 350px;
+    }
+
+    .sobre-mim h2 {
+        margin: 8px 150px;
+    }
+
+    .sobre-mim p {
+        width: 70%;
+        padding: 0 50px;
+    }
+
+    .soft-skills h2 {
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .soft-skills ul li {
+        width: 150px;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .tecnologias h2 {
+        margin: auto;
+        padding-bottom: 30px;
+    }
+
+    .tecnologias ul li {
+        margin: auto;
+        padding: 0 20px 50px;
+    }
+
+    .footer-about {
+        width: 70%;
+        padding: 0;
+        margin: 0 250px 20px ;
+    }
+
+    .projeto-psico {
+        margin: auto;
+        padding-top: 20px;
+        width: 35vw;
+        height: 50vh;
+    }
+
+    .projeto-psico p {
+        width: 80%;
+        margin: auto;
+    }
+
+    .projeto-psico button {
+        width: 25vw;
+    }
+
+    .projeto-psico ul li {
+        padding: 25px 15px;
+    }
+
+    .footer-project {
+        margin: 0;
+        padding: 15px;
+    }
+
+    .home-contact {
+        width: 50vw;
+        height: 70vh;
+    }
+
+    .contato p {
+        width: 90%;
+        margin: auto;
+    }
+
+    .contato h3 {
+        margin-bottom: 10px;
+    }
+
+}
