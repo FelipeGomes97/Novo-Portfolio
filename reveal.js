@@ -31,28 +31,28 @@ revelar.reveal('.fa-html5',
 {
     duration: 500,
     distance: '90px',
-    delay: 500
+    delay: 100
 })
 
 revelar.reveal('.fa-css3-alt',
 {
     duration: 500,
     distance: '90px',
-    delay: 1000
+    delay: 200
 })
 
 revelar.reveal('.fa-js',
 {
     duration: 500,
     distance: '90px',
-    delay: 1500
+    delay: 300
 })
 
 revelar.reveal('.fa-java',
 {
     duration: 500,
     distance: '90px',
-    delay: 2000
+    delay: 400
 })
 
 revelar.reveal('.projeto-psico',
