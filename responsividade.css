@@ -181,7 +181,8 @@
 
     .foto-sobre {
         padding: 15px;
-        width: 350px;
+        width: 400px;
+        height: auto;
     }
 
     .sobre-mim h2 {
@@ -292,7 +293,8 @@
 
     .foto-sobre {
         padding: 15px;
-        width: 350px;
+        width: 400px;
+        height: auto;
     }
 
     .sobre-mim h2 {

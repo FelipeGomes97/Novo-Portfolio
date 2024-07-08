@@ -160,7 +160,6 @@ a, li {
     color: #fff;
     font-family: 'Poppins', sans-serif;
     margin-left: 30px;
-    left: 10%;
 }
 
 .sobre h2 {
@@ -173,8 +172,10 @@ a, li {
 
 .foto-sobre {
     display: flex;
-    width: 290px;
-    margin: 8px 0 0 7px;
+    width: auto;
+    height: 200px;
+    margin: 8px 0 0 6px;
+    padding: 0;
     border-radius: 10px;
 }
 
