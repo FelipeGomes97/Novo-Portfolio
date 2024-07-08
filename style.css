@@ -383,7 +383,7 @@ a, li {
 .home-contact {
     border: 1px solid rgba(128, 128, 128, 0.274);
     width: 90vw;
-    height: 106vh;
+    height: 95vh;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -417,6 +417,7 @@ a, li {
 
 .home-contact p {
     color: #fff;
+    font-size: 15px;
     text-align: justify;
     margin: 25px 15px;
 }
