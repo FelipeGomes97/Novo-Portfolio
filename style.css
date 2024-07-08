@@ -202,6 +202,10 @@ a, li {
     text-align: justify;
 }
 
+mark {
+    background-color: #00007F;
+}
+
 .btn {
     background-color: #00007F;
     color: #fff;
