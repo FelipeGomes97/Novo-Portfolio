@@ -311,7 +311,7 @@ a, li {
     font-size: 13px;
     color: #fff;
     text-align: center;
-    margin: 0 30px 50px;
+    margin: 50px 30px;
 } 
 
 .titulo h2 {
@@ -384,10 +384,9 @@ a, li {
 .home-contact {
     border: 1px solid rgba(128, 128, 128, 0.274);
     width: 90vw;
-    height: 95vh;
+    height: 102dvh;
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+   
 }
 
 .foto-felipe {
@@ -447,4 +446,18 @@ a, li {
 
 .foto-sobre, .sobre-mim, .botoes, .soft-skills, .foto-felipe, .contato {
     visibility: hidden;
+}
+
+form {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    background-color: grey;
+    width: 60dvw;
+}
+
+form > #name, #empresa, textarea, submit {
+    width: 200px;
+    padding: 7px;
+    margin: 3px;
 }

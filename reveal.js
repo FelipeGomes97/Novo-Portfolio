@@ -30,7 +30,7 @@ revelar.reveal('.soft-skills',
 revelar.reveal('.fa-html5',
 {
     duration: 500,
-    distance: '90px',
+    distance: '150px',
     delay: 100
 })
 

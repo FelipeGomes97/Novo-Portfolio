@@ -17,11 +17,15 @@
     }
 
     .home-contact {
-        height: 128vh;
+        height: 100dvh;
+    }
+
+    .footer-about {
+        padding-top: 20px;
     }
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 765px) and (max-width: 991.98px) {
 
     .text-home h2 {
         margin-top: -35px;
@@ -134,20 +138,12 @@
 
     .home-contact {
         width: 80%;
-        height: 75vh;
+        height: 100dvh;
         font-size: 20px;
     }
 
-    .home-contact p {
-        padding: 10px 30px;
-    }
-
-    .footer-contact {
-        margin-top: 120px;
-    }
-
-    .redes-sociais-contact {
-        margin: 15px 0;
+    .footer-contact > p {
+        margin-top: 200px;
     }
 
 }
