@@ -444,10 +444,6 @@ a, li {
     color: grey;
 }
 
-.foto-sobre, .sobre-mim, .botoes, .soft-skills, .foto-felipe, .contato {
-    visibility: hidden;
-}
-
 form {
     display: grid;
     align-items: center;
